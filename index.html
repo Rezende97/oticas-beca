@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ótica Beca - Conforto e Elegância">
+    <meta name="author" content="Debug Solutions">
+    <title>Óticas Beca</title>
+
+    <!-- reset css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- style index -->
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <!-- style main -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- style footer -->
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon_io/favicon.ico" type="image/x-icon">
+    <!-- icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header id="cabecalho">
+
+        <div class="logo">
+            <h1>Óticas Beca</h1>
+        </div>
+        <ul class="menu">
+            <li class="listagem">
+                <a href="#home" class="menuHome">Home</a>
+            </li>
+            <li class="listagem">
+                <a href="#sobreNos" class="menuSobre">Quem Somos</a>
+            </li>
+            <li class="listagem">
+                <a href="#produtos" class="menuProduto">Produtos</a>
+            </li>
+            <li class="listagem">
+                <a href="#fale-consco" class="menuContato">Fale Conosco</a>
+            </li>
+        </ul>
+
+        <div class="icones">
+            <img src="assets/img/icones/menu-hamburguer.png" alt="menu" class="abreMenu">
+            <img src="assets/img/icones/cancela.png" alt="cancela" class="fechaMenu">
+        </div>
+
+    </header>
+    
+    <main>
+        <section id="home">
+            <div>
+                <img src="assets/img/oticaOne.jpeg" alt="" class="imgPrincipal">
+            </div>
+            <div id="HomeTitulo">
+                <h1>Óticas Beca</h1>
+                <span>
+                    <p>Conforto e Elegância</p>
+                </span>
+            </div>
+        </section>       
+
+        <section id="sobreNos">
+
+            <div id="logoSobreNos" data-eventos="center">
+                <h1>Quem Somos</h1>
+            </div>
+            <div id="quemSomosContainer">
+                <div class="containerConteudoSobreNos" data-eventos="left">
+                    <img src="assets/img/main/quemSomos.jpeg" alt="Óculos beca" class="imgQuemSomos">
+                </div>
+                <div class="containerConteudoSobreNos" data-eventos="right">
+                    <div class="tituloQuemSomos">
+                        <h2>Óticas Beca</h2>
+                    </div>
+                    <p>
+                        Óculos para todos os estilos e em qualquer estação! Com uma experiência de mais de 20 anos e melhor atendimento! Somos especializados em óculos de sol e grau. Para melhor atendermos nossos clientes, contamos com laboratório digital. A melhor visão, pelo melhor preço! Venha nos fazer uma visita e ter uma experiência de compra diferenciada, sua satisfação é garantida."A Óticas Beca tem uma vasta experiência no setor óptico. Com profissionalismo sem igual, sempre acompanhado as tendências tecnológicas para servir cada vez melhor. Sejam bem vindos!"
+                    </p>
+                </div>
+            </div>
+                
+        </section>  
+        <section id="produtos">
+
+            <div class="produtosFrase">
+                <h1 data-eventos="center">Produtos</h1>
+                <div class="rowOne" data-eventos="left"></div>
+                <div class="rowTwo" data-eventos="left"></div>
+                <div class="rowThree" data-eventos="left"></div>
+            </div>
+
+            <div class="container">
+               
+                <div data-eventos="left" class="containerImg">
+                    <img src="assets/img/main/oculosDeSol.webp" alt="" class="imgProdutos">
+                    <p>Óculos de Sol</p>
+                    <button><a href="">Visualizar Produtos</a></button>                                    
+                </div>
+                <div data-eventos="center" class="containerImg">
+                    <img src="assets/img/main/oculosDeGrau.jpeg" alt="" class="imgProdutos">
+                    <p>Óculos de Grau</p>
+                    <button><a href="">Visualizar Produtos</a></button>  
+                </div>
+                <div data-eventos="right" class="containerImg">
+                    <img src="assets/img/main/homemDeOculos.webp" alt="" class="imgProdutos">
+                    <p>Homens</p>
+                    <button><a href="">Visualizar Produtos</a></button>  
+                </div>           
+                <div data-eventos="left" class="containerImg">
+                    <img src="assets/img/main/mulherComOculos.webp" alt="" class="imgProdutos">
+                    <p>Mulheres</p>
+                    <button><a href="">Visualizar Produtos</a></button>  
+                </div> 
+                <div data-eventos="center" class="containerImg">
+                    <img src="assets/img/main/lentes.jpeg" alt="" class="imgProdutos">
+                    <p>Lentes</p>
+                    <button><a href="">Visualizar Produtos</a></button>  
+                </div> 
+            </div>
+        </section>  
+        <section id="fale-consco">
+            <div id="formFaleConosco">
+                <div class="fraseFaleConosco" data-eventos="center">
+                    <h1>Fale Conosco</h1>
+                </div>
+                <div class="formularioContato" data-eventos="left">
+
+                    <form action="#" method="post">
+
+
+                        <label for="nomeCompleto">Nome Completo</label>
+                        <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="ex: Roberto Carlos Marinho" minlength="6" maxlength="100" required>
+                        
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@exemplo.com" minlength="6" maxlength="150" required>
+
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="(11) 9.9999-9999" minlength="8" maxlength="11" required>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="25" rows="5" placeholder="Escreva seu comentário" minlength="8" maxlength="11" required></textarea>
+
+                        <button type="submit">Enviar Mensagem</button>
+
+                    </form>
+
+                </div>                
+            </div>
+
+            <div id="redesSociais" data-eventos="center">
+                <div>
+                    <h1>Redes Sociais</h1>
+                </div>
+                <div class="icones">
+                    <p><i class="fa-regular fa-envelope"></i></p>
+                    <p><i class="fa-brands fa-instagram"></i></p>
+                    <p><i class="fa-brands fa-facebook-f"></i></p>
+                </div>
+            </div>
+
+            <div id="localizacao" data-eventos="right">
+                <div class="mapaGoogle">
+                    <h1>Localização</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.699510682721!2d-46.7036588!3d-23.65093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce505689bec07d%3A0xb2086493c5274d66!2sRua%20Isabel%20Schmidt%2C%20203%20-%20Santo%20Amaro%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004743-030!5e0!3m2!1spt-BR!2sbr!4v1673467452151!5m2!1spt-BR!2sbr" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contato">
+                    <h2>Contato</h2>
+                    <p> <strong>WhatsApp:</strong> (11) 9.9999-9999</p>
+                    <p><strong>Endereço:</strong> Rua Isabel Schmidt, 203 - Santo Amaro</p>
+                    <!-- <p><strong>E-mail:</strong> oticabeca@gmail.com</p> -->
+                </div>
+
+            </div>
+            
+        </section>  
+        
+        <footer>                     
+            <div id="logoOtica">
+                <h1>Óticas Beca</h1>
+            </div>
+            <div class="desenvolvidor">
+                <span>
+                    <p><strong>Desenvolvido por:</strong> <a href="">Degub Solutions</a>  </p>
+                </span>
+            </div>
+        </footer>    
+    </main>
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/quemSomos.js"></script>
+</body>
+</html>
