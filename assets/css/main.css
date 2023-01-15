@@ -10,7 +10,7 @@
     font-weight: bold;
     letter-spacing: 0.8rem;
     color: rgba(255, 255, 255, 0.726);
-    padding-bottom: 1.9rem;
+    padding-bottom: 2.5rem;
 }
 
 #HomeTitulo p{
@@ -18,7 +18,7 @@
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.4rem;
-    color: rgba(230, 230, 230, 0.514);
+    color: rgba(255, 255, 255, 0.726);
     text-decoration: underline;
     animation: animationString .8s;
 }
